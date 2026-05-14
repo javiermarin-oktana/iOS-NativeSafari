@@ -1,0 +1,83 @@
+{
+    "configName": "WTNYC",
+    "directCall": true,
+    "language": "en",
+    "statusBar": {
+        "lockscreen": {
+            "carrier": "T-Mobile",
+            "signalBars": 3,
+            "wifiStrength": 2,
+            "showWifi": true,
+            "levelBattery": 0.4,
+            "isCharging": true
+        },
+        "chatview": {
+            "carrier": "T-Mobile",
+            "signalBars": 3,
+            "wifiStrength": 2,
+            "showWifi": true,
+            "levelBattery": 0.9,
+            "isCharging": false
+        }
+    },
+    "notifications": [
+        {
+            "appName": "Chrono24",
+            "iconName": "clock.fill",
+            "iconColor": "#000000",
+            "title": "Market Alert",
+            "message": "The market value for your Tissot PRX has updated",
+            "timeAgo": "now"
+        },
+        {
+            "appName": "Mail",
+            "iconName": "envelope.fill",
+            "iconColor": "#007AFF",
+            "title": "Boutique Concierge",
+            "message": "Your private viewing appointment is confirmed",
+            "timeAgo": "10 min"
+        },
+        {
+            "appName": "Calendar",
+            "iconName": "calendar",
+            "iconColor": "#FF3B30",
+            "title": "Auction Event",
+            "message": "Geneva Watch Auction starts in 1 hour",
+            "timeAgo": "45 min"
+        },
+        {
+            "appName": "Messages",
+            "iconName": "message.fill",
+            "iconColor": "#34C759",
+            "title": "Logistics",
+            "message": "Your insured package has cleared customs",
+            "timeAgo": "2 hr"
+        },
+        {
+            "appName": "Bank",
+            "iconName": "building.columns.fill",
+            "iconColor": "#1C1C1E",
+            "title": "Wire Transfer",
+            "message": "International transfer to Switzerland authorized",
+            "timeAgo": "3 hr"
+        }
+    ],
+    "callNotifications": [
+        {
+            "imageName": "whatsapp",
+            "iconColor": "#25D366",
+            "documentIcon": "https://ios-wrapper-test-kk-de916285ba09.herokuapp.com/resources/phone/WTNYC-Apr-2026/preview.png",
+            "title": "Canada Goose",
+            "message": "Hi Fiona, Your return has been accepted. Please tap here to view your return label.",
+            "timeAgo": "now"
+        }
+    ],
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Canada Goose",
+            "avatar": "https://ios-wrapper-test-kk-de916285ba09.herokuapp.com/resources/phone/WTNYC-Apr-2026/Canada-Goose-logo.png",
+            "imageURL": "https://ios-wrapper-test-kk-de916285ba09.herokuapp.com/resources/phone/WTNYC-Apr-2026/Contact-BG.png"
+        }
+    ]
+}
