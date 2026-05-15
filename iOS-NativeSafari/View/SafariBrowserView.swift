@@ -144,29 +144,27 @@ struct SafariBrowserView: View {
                 // ── Expanded: address bar row ──────────────────────────────
                 VStack(spacing: 10) {
                     HStack(spacing: 10) {
-                        // Back / Forward — only shown once navigation history exists
-                        if canGoBack || canGoForward {
-                            HStack(spacing: 0) {
-                                Button { store.goBack() } label: {
-                                    Image(systemName: "chevron.left")
-                                        .font(.system(size: 16, weight: .medium))
-                                        .foregroundStyle(canGoBack ? .primary : .tertiary)
-                                        .frame(width: 44, height: 44)
-                                }
-                                .disabled(!canGoBack)
+                        // Back siempre visible; Forward solo cuando hay historial adelante
+                        HStack(spacing: 0) {
+                            Button { store.goBack() } label: {
+                                Image(systemName: "chevron.left")
+                                    .font(.system(size: 16, weight: .medium))
+                                    .foregroundStyle(canGoBack ? .primary : .tertiary)
+                                    .frame(width: 44, height: 44)
+                            }
+                            .disabled(!canGoBack)
 
+                            if canGoForward {
                                 Button { store.goForward() } label: {
                                     Image(systemName: "chevron.right")
                                         .font(.system(size: 16, weight: .medium))
-                                        .foregroundStyle(canGoForward ? .primary : .tertiary)
+                                        .foregroundStyle(.primary)
                                         .frame(width: 44, height: 44)
                                 }
-                                .disabled(!canGoForward)
                             }
-                            .glassEffect(.regular.interactive(), in: Capsule())
-                            .glassEffectID("nav", in: ns)
-                            .glassEffectTransition(.matchedGeometry)
                         }
+                        .glassEffect(.regular.interactive(), in: Capsule())
+                        .glassEffectID("nav", in: ns)
 
                         // URL pill (wide)
                         HStack(spacing: 6) {
