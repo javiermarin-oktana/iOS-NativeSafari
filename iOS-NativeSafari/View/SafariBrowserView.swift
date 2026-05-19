@@ -85,6 +85,7 @@ struct SafariWebViewRepresentable: UIViewRepresentable {
 struct SafariBrowserView: View {
     let url: URL
     var onLock: () -> Void = {}
+    var showChrome: Bool = false
 
     @StateObject private var store = WebViewStore()
     @State private var canGoBack    = false
@@ -113,10 +114,12 @@ struct SafariBrowserView: View {
             .ignoresSafeArea()
 
             // Floating bottom chrome
-            bottomChrome
-                .padding(.horizontal, 16)
-                .padding(.bottom, 8)
-                .ignoresSafeArea(edges: .bottom)
+            if showChrome {
+                bottomChrome
+                    .padding(.horizontal, 16)
+                    .padding(.bottom, 8)
+                    .ignoresSafeArea(edges: .bottom)
+            }
         }
     }
 
