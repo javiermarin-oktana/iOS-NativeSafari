@@ -364,6 +364,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Safari;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to allow the web app to use camera features.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required to allow the web app to use audio and voice features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -395,6 +397,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Safari;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to allow the web app to use camera features.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required to allow the web app to use audio and voice features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
