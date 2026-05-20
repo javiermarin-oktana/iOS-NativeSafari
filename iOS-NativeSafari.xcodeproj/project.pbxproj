@@ -366,6 +366,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Safari;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to allow the web app to use camera features.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required to allow the web app to use audio and voice features.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is required to allow the web app to use voice input features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -377,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.internal.customerx.wrapperWebViewiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.internal.customerx.wrapperwebview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -399,6 +400,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Safari;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to allow the web app to use camera features.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required to allow the web app to use audio and voice features.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is required to allow the web app to use voice input features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,7 +412,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.internal.customerx.wrapperWebViewiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.internal.customerx.wrapperwebview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
